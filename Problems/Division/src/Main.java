@@ -3,9 +3,7 @@ import java.util.Scanner;
 public class Main {
 
     public static double divide(long a, long b) {
-        double A = a;
-        double B = b;
-        return A / B;
+        return (double) a / (double) b;
     }
 
     /* Do not change code below */
