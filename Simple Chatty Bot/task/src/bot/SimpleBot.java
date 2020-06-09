@@ -10,7 +10,7 @@ public class SimpleBot {
         remindName();
         guessAge();
         count();
-        // ...
+        test();
         end();
     }
 
@@ -45,7 +45,14 @@ public class SimpleBot {
 
     static void test() {
         System.out.println("Let's test your programming knowledge.");
-        // write your code here
+        System.out.println("which of the following is not a programming language ?");
+        System.out.println("1. Python \n2. Java \n3. c++ \n4. wongo");
+        int correctAnswer = 4;
+        int currAnswer = scanner.nextInt();
+        while (currAnswer != correctAnswer) {
+            System.out.println("Please, try again.");
+            currAnswer = scanner.nextInt();
+        }
     }
 
     static void end() {
